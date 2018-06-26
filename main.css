@@ -21,7 +21,7 @@ body {
   text-align: center;
 }
 
-.quote {
+.qoute {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 2.5rem; 
 }
@@ -31,3 +31,12 @@ body {
   font-size: 1.5rem;
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+  .qoute {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1rem;
+    padding-top: 8rem;
+  }
+}
+
