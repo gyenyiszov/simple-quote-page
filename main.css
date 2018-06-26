@@ -15,7 +15,7 @@ body {
 }
 
 .wrapper {
-  padding-top: 4rem;
+  padding-top: 1rem;
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -34,6 +34,10 @@ body {
 }
 
 @media (min-width: 768px) {
+  .wrapper{
+    padding-top: 9rem;
+    margin-top: 4rem;
+  }
   .author{
     font-size: 1.5rem;
   }
@@ -46,6 +50,7 @@ body {
 @media (min-width: 1910px) {
   .wrapper{
     padding-top: 9rem;
+    margin-top: 4rem;
   }
 }
 
