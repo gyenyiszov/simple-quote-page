@@ -19,29 +19,38 @@ body {
   width: 90%;
   margin: 0 auto;
   text-align: center;
+  position: relative;
 }
 
 .qoute {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.5rem; 
+  font-size: 1.5rem;
 }
 
 .author {
   font-family: 'Crimson Text', serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-style: italic;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  .author{
+    font-size: 1.5rem;
+  }
   .qoute {
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 1rem;
-    padding-top: 8rem;
+    font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1910px) {
+  .wrapper{
+    padding-top: 9rem;
   }
 }
 
 @media (min-width: 1910px) {
-  .qoute{
-    padding-top: 8rem;
+  .author {
+    font-size: 2rem;
   }
 }
