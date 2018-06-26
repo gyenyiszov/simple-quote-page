@@ -40,3 +40,8 @@ body {
   }
 }
 
+@media (min-width: 1920px) {
+  .qoute{
+    padding-top: 8rem;
+  }
+}
